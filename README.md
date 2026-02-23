@@ -225,41 +225,12 @@ The `Makefile` provides convenient commands for common tasks:
 - `make train` - Run training
 - `make evaluate` - Run evaluation
 
-## 📊 Performance
-
-The implementation has been tested with various model sizes:
-
-| Model Size | Parameters | Training Time | Perplexity |
-|------------|------------|---------------|------------|
-| Small (124M) | 124M | ~2 hours (GPU) | ~25.0 |
-| Medium (355M) | 355M | ~6 hours (GPU) | ~20.5 |
-| Large (774M) | 774M | ~15 hours (GPU) | ~18.2 |
-
-*Results on WikiText-103 dataset, single V100 GPU*
-
-## 📚 Documentation
+##  Documentation
 
 - [Architecture Details](pytorch_transformers/docs/architecture.md)
 - [API Reference](pytorch_transformers/docs/api.md)
 - [Experimental Results](pytorch_transformers/experiments/experiment_log.md)
 - [Jupyter Notebooks](notebooks/)
-
-## 🤝 Contributing
-
-We welcome contributions! Please see our development guidelines:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Make your changes
-4. Add tests for new functionality
-5. Run the test suite (`make test`)
-6. Commit your changes (`git commit -m 'Add amazing feature'`)
-7. Push to the branch (`git push origin feature/amazing-feature`)
-8. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
